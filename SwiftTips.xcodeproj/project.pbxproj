@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		73FB5BAA20EE15B20061562C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BA920EE15B20061562C /* main.swift */; };
 		73FB5BB120EE15D40061562C /* ReverseSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BB020EE15D40061562C /* ReverseSequence.swift */; };
+		73FB5BB320EE22210061562C /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BB220EE22210061562C /* Tuple.swift */; };
+		73FB5BB520EE24F30061562C /* AutoClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BB420EE24F30061562C /* AutoClosure.swift */; };
+		73FB5BB720EE2AF00061562C /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BB620EE2AF00061562C /* Operator.swift */; };
+		73FB5BCE20F60DDB0061562C /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BCD20F60DDB0061562C /* Regex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +31,10 @@
 		73FB5BA620EE15B20061562C /* SwiftTips */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTips; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FB5BA920EE15B20061562C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		73FB5BB020EE15D40061562C /* ReverseSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseSequence.swift; sourceTree = "<group>"; };
+		73FB5BB220EE22210061562C /* Tuple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuple.swift; sourceTree = "<group>"; };
+		73FB5BB420EE24F30061562C /* AutoClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoClosure.swift; sourceTree = "<group>"; };
+		73FB5BB620EE2AF00061562C /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
+		73FB5BCD20F60DDB0061562C /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 			children = (
 				73FB5BA920EE15B20061562C /* main.swift */,
 				73FB5BB020EE15D40061562C /* ReverseSequence.swift */,
+				73FB5BB220EE22210061562C /* Tuple.swift */,
+				73FB5BB420EE24F30061562C /* AutoClosure.swift */,
+				73FB5BB620EE2AF00061562C /* Operator.swift */,
+				73FB5BCD20F60DDB0061562C /* Regex.swift */,
 			);
 			path = SwiftTips;
 			sourceTree = "<group>";
@@ -123,7 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				73FB5BAA20EE15B20061562C /* main.swift in Sources */,
+				73FB5BB320EE22210061562C /* Tuple.swift in Sources */,
+				73FB5BB720EE2AF00061562C /* Operator.swift in Sources */,
+				73FB5BB520EE24F30061562C /* AutoClosure.swift in Sources */,
 				73FB5BB120EE15D40061562C /* ReverseSequence.swift in Sources */,
+				73FB5BCE20F60DDB0061562C /* Regex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
