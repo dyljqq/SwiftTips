@@ -8,10 +8,11 @@
 
 import Foundation
 
-let arr = [1, 2, 3, 4, 5]
-
-for i in ReverseSequence(array: arr) {
-  print(i)
-}
-
-traverse()
+//let arr = [1, 2, 3, 4, 5]
+//
+//for i in ReverseSequence(array: arr) {
+//  print(i)
+//}
+//
+//traverse()
+regexTest()
