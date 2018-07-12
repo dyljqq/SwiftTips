@@ -13,6 +13,8 @@
 		73FB5BB520EE24F30061562C /* AutoClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BB420EE24F30061562C /* AutoClosure.swift */; };
 		73FB5BB720EE2AF00061562C /* Operator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BB620EE2AF00061562C /* Operator.swift */; };
 		73FB5BCE20F60DDB0061562C /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BCD20F60DDB0061562C /* Regex.swift */; };
+		73FB5BD020F6FD210061562C /* ClassSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BCF20F6FD210061562C /* ClassSelf.swift */; };
+		73FB5BD220F702780061562C /* DynamicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BD120F702780061562C /* DynamicType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +37,8 @@
 		73FB5BB420EE24F30061562C /* AutoClosure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoClosure.swift; sourceTree = "<group>"; };
 		73FB5BB620EE2AF00061562C /* Operator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operator.swift; sourceTree = "<group>"; };
 		73FB5BCD20F60DDB0061562C /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		73FB5BCF20F6FD210061562C /* ClassSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassSelf.swift; sourceTree = "<group>"; };
+		73FB5BD120F702780061562C /* DynamicType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				73FB5BB420EE24F30061562C /* AutoClosure.swift */,
 				73FB5BB620EE2AF00061562C /* Operator.swift */,
 				73FB5BCD20F60DDB0061562C /* Regex.swift */,
+				73FB5BCF20F6FD210061562C /* ClassSelf.swift */,
+				73FB5BD120F702780061562C /* DynamicType.swift */,
 			);
 			path = SwiftTips;
 			sourceTree = "<group>";
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73FB5BD020F6FD210061562C /* ClassSelf.swift in Sources */,
 				73FB5BAA20EE15B20061562C /* main.swift in Sources */,
 				73FB5BB320EE22210061562C /* Tuple.swift in Sources */,
+				73FB5BD220F702780061562C /* DynamicType.swift in Sources */,
 				73FB5BB720EE2AF00061562C /* Operator.swift in Sources */,
 				73FB5BB520EE24F30061562C /* AutoClosure.swift in Sources */,
 				73FB5BB120EE15D40061562C /* ReverseSequence.swift in Sources */,
