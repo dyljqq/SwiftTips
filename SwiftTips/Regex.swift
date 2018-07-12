@@ -56,3 +56,32 @@ func regexTest() {
     print("有效的邮箱地址")
   }
 }
+
+
+// 模式匹配
+
+func ~=(pattern: NSRegularExpression, input: String) -> Bool {
+  return pattern.numberOfMatches(in: input, options: [], range: NSMakeRange(0, input.count)) > 0
+}
+
+prefix operator ~/
+
+prefix func ~/(pattern: String) throws -> NSRegularExpression {
+  return try NSRegularExpression(pattern: pattern, options: [])
+}
+
+func patternMatch() {
+  do {
+    let mailRegex =  try ~/"^([a-z0-9_\\.-]+)@([\\da-z\\.-]+)\\.([a-z\\.]{2,6})$"
+    let siteRegex = try ~/"^(https?:\\/\\/)?([\\da-z\\.-]+)\\.([a-z\\.]{2,6})(\\/\\w\\.-]*)*\\/?$"
+    let contact = ("https://google.com", "qinqiangji@gmail.com")
+    switch contact {
+    case (siteRegex, mailRegex): print("同时有效")
+    case (_, mailRegex): print("邮箱有效")
+    case (siteRegex, _): print("网址有效")
+    default: print("嘛都没有")
+    }
+  } catch let error as NSError {
+    print("parse error: \(error.description)")
+  }
+}

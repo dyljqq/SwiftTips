@@ -15,4 +15,5 @@ import Foundation
 //}
 //
 //traverse()
-regexTest()
+//regexTest()
+patternMatch()
