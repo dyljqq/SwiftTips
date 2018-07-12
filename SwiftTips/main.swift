@@ -16,4 +16,9 @@ import Foundation
 //
 //traverse()
 //regexTest()
-patternMatch()
+//patternMatch()
+
+//ClassSelf.test()
+//typeOfAppleExample()
+
+DynamicType.print()
