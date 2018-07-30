@@ -8,48 +8,48 @@
 
 import Foundation
 
-protocol Copyable {
-  func copy() -> Self
-}
-
-class MyClass: Copyable {
-  
-  var num = 1
-  
-  func copy() -> Self {
-//    let c = MyClass() // error..
-    let c = type(of: self).init() // dynamic type
-    c.num = num
-    return c
-  }
-  
-  required init() {
-    
-  }
-  
-}
-
-struct ClassSelf {
-  
-  static func test() {
-    let obj = MyClass()
-    obj.num = 100
-    
-    let newObj = obj.copy()
-    obj.num = 1
-    
-    print(obj.num)
-    print(newObj.num)
-  }
-  
-}
-
-func typeOfAppleExample() {
-  func printInfo(_ value: Any) {
-    let t = type(of: value)
-    print("'\(value)' of type '\(t)'")
-  }
-  
-  let count: Int = 5
-  printInfo(count)
-}
+//protocol Copyable {
+//  func copy() -> Self
+//}
+//
+//class MyClass: Copyable {
+//  
+//  var num = 1
+//  
+//  func copy() -> Self {
+////    let c = MyClass() // error..
+//    let c = type(of: self).init() // dynamic type
+//    c.num = num
+//    return c
+//  }
+//  
+//  required init() {
+//    
+//  }
+//  
+//}
+//
+//struct ClassSelf {
+//  
+//  static func test() {
+//    let obj = MyClass()
+//    obj.num = 100
+//    
+//    let newObj = obj.copy()
+//    obj.num = 1
+//    
+//    print(obj.num)
+//    print(newObj.num)
+//  }
+//  
+//}
+//
+//func typeOfAppleExample() {
+//  func printInfo(_ value: Any) {
+//    let t = type(of: value)
+//    print("'\(value)' of type '\(t)'")
+//  }
+//  
+//  let count: Int = 5
+//  printInfo(count)
+//}
