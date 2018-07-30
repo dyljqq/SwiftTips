@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		731B6E2320FCDE6F0009A4C0 /* lazy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731B6E2220FCDE6F0009A4C0 /* lazy.swift */; };
+		73474692210EF36E005A0962 /* dispatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73474691210EF36E005A0962 /* dispatch.swift */; };
 		73FB5BAA20EE15B20061562C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BA920EE15B20061562C /* main.swift */; };
 		73FB5BB120EE15D40061562C /* ReverseSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BB020EE15D40061562C /* ReverseSequence.swift */; };
 		73FB5BB320EE22210061562C /* Tuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FB5BB220EE22210061562C /* Tuple.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		731B6E2220FCDE6F0009A4C0 /* lazy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lazy.swift; sourceTree = "<group>"; };
+		73474691210EF36E005A0962 /* dispatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dispatch.swift; sourceTree = "<group>"; };
 		73FB5BA620EE15B20061562C /* SwiftTips */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftTips; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FB5BA920EE15B20061562C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		73FB5BB020EE15D40061562C /* ReverseSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseSequence.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				73FB5BCF20F6FD210061562C /* ClassSelf.swift */,
 				73FB5BD120F702780061562C /* DynamicType.swift */,
 				731B6E2220FCDE6F0009A4C0 /* lazy.swift */,
+				73474691210EF36E005A0962 /* dispatch.swift */,
 			);
 			path = SwiftTips;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 				73FB5BD220F702780061562C /* DynamicType.swift in Sources */,
 				73FB5BB720EE2AF00061562C /* Operator.swift in Sources */,
 				73FB5BB520EE24F30061562C /* AutoClosure.swift in Sources */,
+				73474692210EF36E005A0962 /* dispatch.swift in Sources */,
 				73FB5BB120EE15D40061562C /* ReverseSequence.swift in Sources */,
 				73FB5BCE20F60DDB0061562C /* Regex.swift in Sources */,
 			);
@@ -276,6 +280,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4Y29F8CZ3;
+				OTHER_SWIFT_FLAGS = "-D FREE_VERSION";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -286,6 +291,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4Y29F8CZ3;
+				OTHER_SWIFT_FLAGS = "-D FREE_VERSION";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
